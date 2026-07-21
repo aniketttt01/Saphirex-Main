@@ -8,6 +8,9 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  preview: {
+    allowedHosts: ["saphirex-main.onrender.com"],
+  },
   plugins: [
     tsConfigPaths({
       projects: ["./tsconfig.json"],
