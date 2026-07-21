@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
   },
   preview: {
-    allowedHosts: ["saphirex-main.onrender.com"],
+    allowedHosts: ["saphirex-main.onrender.com", "saphirex-main-2.onrender.com"],
   },
   plugins: [
     tsConfigPaths({
